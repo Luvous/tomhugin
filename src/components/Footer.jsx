@@ -15,7 +15,8 @@ function Footer() {
                 style={{
                     position: 'relative',
                     zIndex: '5',
-                    translateY: transY
+                    translateY: transY,
+                    bottom: '50vh'
                 }}>
                 <h4 style={{
                     position: 'relative',
@@ -39,12 +40,8 @@ function Footer() {
                         <Icon icon="bi:github" width="50" />
                 </a>
             </div>
-            <img style={{
-                marginTop: '15rem',
-                position: 'relative',
-                bottom: '-2rem',
-                width: '100%',
-            }} src={FooterS} alt='svg' />
+            <img
+            className='footer-bck' src={FooterS} alt='svg' />
         </section>
     )
 }

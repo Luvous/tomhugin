@@ -25,10 +25,10 @@ function ContactSection() {
             radius="xs"
             placeholder="Subject"
             data={[
-              { value: 'job', label: 'Job' },
-              { value: 'int', label: 'Interview' },
-              { value: 'project', label: 'Project' },
-              { value: 'personal', label: 'Personal' },
+              { value: 'job', label: 'Goku' },
+              { value: 'int', label: 'Gohan' },
+              { value: 'project', label: 'Goten' },
+              { value: 'personal', label: 'Esquizo :P' },
             ]}
             rightSectionWidth={50}
             styles={() => ({

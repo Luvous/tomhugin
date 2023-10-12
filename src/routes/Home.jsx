@@ -50,13 +50,7 @@ function Home() {
                     translateY: transY,
                     translateX: transX,
                 }}>
-                <img style={{
-                    zIndex: '2',
-                    position: 'absolute',
-                    top: '-20vh',
-                    width: '10rem',
-                    right: '12vw',
-                }} src={RocketShip} alt='svg-rocketship' />
+                <img className='rocket-ship' src={RocketShip} alt='svg-rocketship' />
             </motion.div>
             <div className='subtitle'>
                 <div> WEB DEVELOPER <br /> & <br /> DESIGNER</div>
