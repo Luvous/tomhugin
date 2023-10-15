@@ -6,6 +6,7 @@ import {
 } from "react-router-dom";
 import Home from './Home.jsx';
 import Projects from './Projects.jsx';
+import Page404 from './Page404.jsx';
 
 const Webpages = () => {
 
@@ -14,7 +15,9 @@ const Webpages = () => {
             <Routes>
                 <Route exact path="/" element={<Home />} />
                 <Route exact path="/projects" element={<Projects />} />
-                {/* <Route path="*" element={<NotFound />} /> //? Handles 404 */}
+
+                
+                <Route path="*" element={<Page404 />} /> 
             </Routes>
         </Router>
     );

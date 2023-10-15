@@ -67,6 +67,11 @@ body {
     width: 70%;
   }
 
+  h1{
+    font-size: 4rem;
+    font-weight: 300;
+  }
+
   h2 {
     margin-top: 2rem;
     font-size: 4rem;
@@ -109,6 +114,13 @@ body {
     z-index: 4;
   }
 
+  #LostPage{
+    display: flex;
+    height: 90vh;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+  }
 
   #Contact {
     min-height: 92vh;
