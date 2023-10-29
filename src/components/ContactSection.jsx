@@ -7,7 +7,7 @@ import Satellite from '../resources/svgs/Satellite.svg';
 function ContactSection() {
   const { scrollYProgress } = useScroll()
 
-  const transYSatellite = useTransform(scrollYProgress, [0, 1], [-600, 140]);
+  const transYSatellite = useTransform(scrollYProgress, [0, 1], [-300, 140]);
   const transXSatellite = useTransform(scrollYProgress, [0, 1], [-250, -20]);
 
   return (

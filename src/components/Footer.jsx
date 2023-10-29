@@ -31,17 +31,20 @@ function Footer() {
 
             <div className='socials-cont'>
                 <a href='/'>
-                        <Icon icon="formkit:twitter" width="50" />
+                    <Icon icon="formkit:twitter" width="50" />
+                    <p>@tom_hugin</p>
                 </a>
                 <a href='/'>
-                        <Icon icon="ant-design:behance-circle-filled" width="55" />
+                    <Icon icon="ant-design:behance-circle-filled" width="55" />
+                    <p>/thvarela</p>
                 </a>
                 <a href='/'>
-                        <Icon icon="bi:github" width="50" />
+                    <Icon icon="bi:github" width="50" />
+                    <p>/Luvous</p>
                 </a>
             </div>
             <img
-            className='footer-bck' src={FooterS} alt='svg' />
+                className='footer-bck' src={FooterS} alt='svg' />
         </section>
     )
 }
