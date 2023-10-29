@@ -15,8 +15,7 @@ const Webpages = () => {
             <Routes>
                 <Route exact path="/" element={<Home />} />
                 <Route exact path="/projects" element={<Projects />} />
-
-                
+ 
                 <Route path="*" element={<Page404 />} /> 
             </Routes>
         </Router>
