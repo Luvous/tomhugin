@@ -2,6 +2,8 @@
   --main-black: #0C0F10;
   --main-white: #FEFCF1;
   --main-red: #FF4450;
+  --design: #9fb5ff;
+  --code: #d6fe92;
 }
 
 .App {
@@ -37,6 +39,7 @@ a{
   transition: all .1s ease-in;
 
 }
+
 
 textarea:focus::-webkit-scrollbar-thumb:vertical {
   height: 20px;
@@ -201,7 +204,7 @@ body {
     font-size: 1.2rem;
     margin: 0 0 .1rem;
     font-weight: 600;
-    color: var(--main-white);
+    color: inherit;
     transition: .2s ease-in;
   }
 
@@ -211,7 +214,7 @@ body {
   }
 
   .card-project {
-    border: 5px solid var(--main-white);
+    border: 5px solid ;
     flex-basis: 27%;
     margin: .7rem;
     height: 11rem;
@@ -221,6 +224,21 @@ body {
     justify-content: space-between;
     transition: .4s ease-in;
   }
+
+  
+.design{
+  border-color: var(--design);
+}
+.code{
+  border-color: var(--code);
+}
+
+.design>div:nth-child(2){
+  background-color: var(--design);
+}
+.code>div:nth-child(2){
+  background-color: var(--code);
+}
 
 
   .card-project .card-title {
@@ -240,7 +258,6 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    background: var(--main-white);
     color: var(--main-black);
     height: 50%;
     width: 100%;
@@ -258,7 +275,7 @@ body {
     font-size: 1rem;
     padding: 2% 2% 5%;
     width: 80%;
-    color: var(--main-white);
+    color: inherit;
     cursor: default;
     transition: all .25s ease-in;
   }
@@ -559,12 +576,26 @@ body {
     font-size: 1.9rem;
     margin: 0 0 .5rem;
     font-weight: 600;
-    color: var(--main-white);
     transition: .2s ease-in;
   }
 
+  .design h4{
+    color: var(--design);
+  }  
+
+  .design .card-title{
+    color: var(--design);
+  }
+
+  .code h4{
+    color: var(--code);
+  }  
+
+  .code .card-title{
+    color: var(--code);
+  }
+
   .card-project .card-title {
-    color: var(--main-white);
     display: flex;
     flex-direction: column;
     align-items: flex-end;

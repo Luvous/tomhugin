@@ -53,7 +53,7 @@ function Home() {
                 <img className='rocket-ship' src={RocketShip} alt='svg-rocketship' />
             </motion.div>
             <div className='subtitle'>
-                <div> WEB DEVELOPER <br /> & <br /> DESIGNER</div>
+                <div> DEVELOPER <br /> & <br /> DESIGNER </div>
             </div>
             <hr />
             <ProjectsSection />
